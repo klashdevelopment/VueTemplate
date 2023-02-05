@@ -1,0 +1,88 @@
+/* Globals */
+body {
+  color: white;
+  background-color: #181818;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* FontAwesome */
+.fa-link:hover {
+  cursor: pointer;
+  color: #ff953d;
+}
+.fa-link {
+  color:#DFA87B;
+  margin: 10px;
+  width:28px;
+  height:28px;
+}
+/* Better looking blue for a links */
+  a.blue {
+    color: rgb(67, 67, 255);
+  }
+  /* Button styles */
+  button {
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'JetBrains Mono';
+    border: 2px solid aquamarine;
+    background-color: rgb(98, 201, 167);
+  }
+  button:hover {
+    background-color: rgb(104, 214, 178);
+    font-weight: 500;
+    border: 2px solid white;
+    scale: 1.25;
+    transition-duration: 0.5s;
+  }
+  button:active {
+    scale: 1.15;
+  }
+  button:not(:hover) {
+    scale: 1;
+    transition-duration: 0.5s;
+  }
+  /* Fonts */
+  .codefont {
+    font-family: 'JetBrains Mono';
+  }
+  .codefont-bold {
+    font-family: 'JetBrains Mono Bold';
+  }
+  .arialfont {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /*  --  Navbar stuff below  --  */
+.nav-nav {
+  border: 5px solid black;
+  border-radius: 3px;
+  }
+  .nav-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #333;
+  }
+  .nav-li {
+  float: left;
+  }
+  .nav-a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  .nav-a:hover {
+  background-color: #111;
+  }
+  .nav-a.active:hover {
+  background-color: #006d45;
+  }
+  .active {
+  background-color: #04AA6D;
+  }
+  .right {
+  float: right;
+  }
